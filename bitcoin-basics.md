@@ -5,18 +5,62 @@
 <!-- section -->
 <!-- .slide: class="master02" -->
 
-#Sprint 2018-11
-![Puzzle ITC Logo](assets/meme.jpg)
+##Why Bitcoin?
+![Puzzle ITC Logo](assets/Tweet21MillionBTC.png)
 
-<!-- section -->
-<!-- .slide: class="master03" -->
+So what *is* the use case for Bitcoin?
 
-## Agenda
+<!-- slide -->
+<!-- .slide: class="master02" -->
 
-* 31280: Anordnung Fieldsets anpassen
-* 31279: Leiterpersonen mit Trainingslagertagen nicht blockieren
-* 31281: Regelungen B-Sportarten
-* 31207: OptiDQ: Workshop
+##Some popular Opinions
+<!-- also historical ones --> 
+
+* Cash for the Internet
+<!-- Direct (no middlemen), fast, more or less anonymous -->
+* Cheap Payment System / Micropayments
+<!-- Cheap because you cut out the middlemen, amongst other reasons -->
+* Darknet Currency
+<!-- Because of its anonymity, constant battle between privacy advocates and Blockchain analysis firms -->
+* Sound Money / Digital Gold
+<!-- Sound Money is all about scarcity, Bitcoin is the first example of absolute scarcity. Never more than 21 million BTC. -->
+* Banking the Unbanked
+<!-- Poor people who cannot get a Bank account CAN get a Bitcoin Wallet -->
+* International Payments / Remittance
+<!-- Payments across borders can get very expensive -->
+
+
+<!-- slide -->
+<!-- .slide: class="master02" -->
+
+##As perceived today
+
+<br />
+*Darknet Currency*
+
+--> lost a lot of its importance.
+
+<!-- slide -->
+<!-- .slide: class="master02" -->
+
+##As perceived today
+
+<br />
+*Cheap Payment System / Micropayments*
+
+--> Not sustainable on a Blockchain.<br />
+Maybe on a layer above?
+
+<!-- slide -->
+<!-- .slide: class="master02" -->
+
+##As perceived today
+
+<br />
+*Sound Money / Digital Gold*
+
+--> the Holy Grail!
+
 
 <!-- section -->
 <!-- .slide: class="master03" -->
