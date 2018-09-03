@@ -139,84 +139,8 @@ Problem solved <span style="font-size: 6.5rem;">✓</span>
 <!-- well, not really. There is a catch -->
 
 
-<!-- slide -->
-<!-- .slide: class="master04" -->
-
-### Leiterpersonen mit TLT in Kursen nicht blockieren
-
-* AWK / MobileAWK
-* AWK-Export
-
-
-<!-- slide -->
-<!-- .slide: class="master04" -->
-
-#### AWK Vorher: Lager vs. Kurs
-
-![](assets/awk-vorher.png)
-
-<!-- slide -->
-<!-- .slide: class="master04" -->
-
-#### MobileAWK Vorher: Lager vs. Kurs
-
-![](assets/mAwk-vorher.png)
-
-<!-- slide -->
-<!-- .slide: class="master04" -->
-
-#### Nachher
-
-![](assets/awk-kurs-nacher.png)
-
-<!-- section -->
-<!-- .slide: class="master03" -->
-### 31281: Regelungen B-Sportarten
-
-```
-@author rhertle
-```
-
-<!-- slide -->
-<!-- .slide: class="master04" -->
-
-### Vorher:
-Polysportive Lager waren immer als A-Sportart klassifiziert.
-
-![](assets/31281-vorher.png)
-
-<!-- slide -->
-<!-- .slide: class="master05" -->
-
-### Nachher:
-
-<div>![](assets/31281-nachher.png)</div>
-
-
-<!-- section -->
-<!-- .slide: class="master03" -->
-
-### 31284: OptiDQ: Workshop 
-
-```
-@author sgirod
-```
-
-<!-- slide -->
-<!-- .slide: class="master04" -->
-
-### Fazit Workshop
-
-* Fortschritt des Konzepts besprochen
-* Weiteres Vorgehen definiert
-    - Prüfung des Konzepts durch BASPO
-    - Weitere Analyse durch Puzzle
-    - Kandidaten für Improvements finden
-    - Kategorisierung nach Migrationsschritten
-     
-
-
 <!-- section -->
 <!-- .slide: class="master01" -->
 
-# Vielen Dank!
+# Thank you!
+Slides are available on gcomte.github.io
