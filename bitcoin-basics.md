@@ -73,7 +73,7 @@ Maybe on a layer above?
 <!-- But also today money is created, in our system of national paper money, although this time there is even a monopoly on creating money. Central banks and banks can do so, but you are put in jail if you try -->
 <!-- Creating Money out of thin air is a phenomen that is omnipresent all over the world, with devastating consequences. (See Venezuela) -->
  
-<!-- Bitcoin is fundamentally different. It has the scarcity from precious metals (and even more, it is the first money of absolute scarcity humanity has ever had) and the flexibility (transportation, divisibility, fungibility) of Fiat (even better!) 
+<!-- Bitcoin is fundamentally different. It has the scarcity from precious metals (and even more, it is the first money of absolute scarcity humanity has ever had) and the flexibility (transportation, divisibility, fungibility) of Fiat (even better!) --> 
 
 <!-- section -->
 <!-- .slide: class="master03" -->
