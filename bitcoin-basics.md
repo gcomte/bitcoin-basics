@@ -6,7 +6,7 @@
 <!-- .slide: class="master02" -->
 
 ##Why Bitcoin?
-![Puzzle ITC Logo](assets/Tweet21MillionBTC.png)
+![Twitter Post](assets/Tweet21MillionBTC.png)
 
 So what *is* the use case for Bitcoin?
 
@@ -76,36 +76,68 @@ Maybe on a layer above?
 <!-- Bitcoin is fundamentally different. It has the scarcity from precious metals (and even more, it is the first money of absolute scarcity humanity has ever had) and the flexibility (transportation, divisibility, fungibility) of Fiat (even better!) --> 
 
 <!-- section -->
-<!-- .slide: class="master03" -->
+<!-- .slide: class="master04" -->
 
-### 31280: Anordnung Fieldsets anpassen
-
-```
-@author bluginbuehl
-```
+### Solution: 
+## A Decentralized System!
 
 <!-- slide -->
 <!-- .slide: class="master04" -->
 
-#### Vorher
+## A Decentralized System
 
-![](assets/kursv121-alt.png)
+###P2P Network
+No hierarchy - every node has equal rights.
+
+<br />
+<br />
+Because history shows, if we put an elite in charge, additional money WILL BE created.
 
 <!-- slide -->
 <!-- .slide: class="master04" -->
 
-#### Nachher
+## A Decentralized System
 
-![](assets/kursv121-new.png)
+Other reasons:
 
-<!-- section -->
-<!-- .slide: class="master03" -->
+* Censorship resistance
+* System cannot be shut down
+* Fees are up to free market (no monopoly)
+* No downtime
+* No data loss
 
-### 31279: Leiterpersonen mit Trainingslagertagen nicht blockieren
+<!-- slide -->
+<!-- .slide: class="master04" -->
 
-```
-@author sgirod
-```
+## A Decentralized System
+In fact: __A decentralized ledger__
+
+Everybody stores the worldwide ledger.
+
+![Ledger](assets/Ledger.png)
+
+
+<!-- slide -->
+<!-- .slide: class="master04" -->
+
+## A Decentralized System
+
+![Decentralized Network](assets/BitcoinDecentralizedNetwork.png)
+
+<!-- slide -->
+<!-- .slide: class="master04" -->
+
+<span style="color:#1cbf27; font-weight: bold; font-size: 5rem; background: #000">
+Problem solved <span style="font-size: 6.5rem;">✓</span>
+</span>
+
+<!-- slide -->
+<!-- .slide: class="master04" -->
+
+![Too Easy!!](assets/TooEasy.png)
+
+<!-- well, not really. There is a catch -->
+
 
 <!-- slide -->
 <!-- .slide: class="master04" -->
