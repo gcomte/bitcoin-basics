@@ -136,8 +136,18 @@ Problem solved <span style="font-size: 6.5rem;">✓</span>
 
 ![Too Easy!!](assets/TooEasy.png)
 
-<!-- well, not really. There is a catch -->
+<!-- slide -->
+<!-- .slide: class="master04" -->
 
+###Well no, sorry.
+
+This system is NOT SAFE.
+
+<br />
+###Let's attack it! ☠
+
+<!-- well, not really. There is a catch. -->
+<!-- This system is not safe! So let's attack it by exploiting an architectural vulnerability called "The Double-Spending Problem". --> 
 
 <!-- section -->
 <!-- .slide: class="master01" -->
