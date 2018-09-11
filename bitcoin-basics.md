@@ -147,7 +147,195 @@ This system is NOT SAFE.
 ###Let's attack it! ☠
 
 <!-- well, not really. There is a catch. -->
-<!-- This system is not safe! So let's attack it by exploiting an architectural vulnerability called "The Double-Spending Problem". --> 
+<!-- This system is not safe! So let's attack it by exploiting an architectural vulnerability called "The Double-Spending Problem". -->
+
+<!-- section -->
+<!-- .slide: class="master01" -->
+
+###A Valid Transaction
+![Transaction 1](assets/Tx1.png)
+
+Alice sends all of her Bitcoin to Eve.
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+###The Updated Ledger
+![Transaction 1](assets/Tx1_2.png)
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+###Alice updates the Ledger
+![Network state 1](assets/BitcoinDecentralizedNetwork_newTx.png)
+
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+###Transaction travels through Network
+![Network state 1](assets/BitcoinDecentralizedNetwork_sendTx1.png)
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+###Transaction travels through Network
+![Network state 1](assets/BitcoinDecentralizedNetwork_sendTx2.png)
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+###Transaction travels through Network
+![Network state 1](assets/BitcoinDecentralizedNetwork_sendTx3.png)
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+###Final state
+Everybody agrees:
+
+* Eve has 28.7 BTC
+* Alice should learn how to deal with money.
+
+<!-- There is a CONSENSUS about the ledger -->
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+###Another Valid Transaction
+![Transaction 1](assets/Tx2.png)
+
+Alice sends all of her Bitcoin to __Dave__.
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+###Two Transactions
+![Transaction 1](assets/TwoTransactions.png)
+
+* Both are valid
+* But _only_ if sent first!
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+###Our Attack
+
+* Exploit the networks latency
+* Pull off a "Double Spending Attack"
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+### Alice sends both Transactions
+![Double Spending](assets/BitcoinDecentralizedNetwork_DoubleSpend1.png)
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+### Transaction travels through Network
+![Double Spending](assets/BitcoinDecentralizedNetwork_DoubleSpend2.png)
+
+<!-- slide -->
+<!-- .slide: class="master01" -->
+
+### Consensus Failure
+* For Bob the red transaction is invalid
+* For Eve the green transaction will be invalid
+
+WHO IS RIGHT?
+
+<!-- section -->
+<!-- .slide: class="master02" -->
+
+### The Double-Spending Problem
+
+Solution: Put transactions in a timed order.
+
+<!-- slide -->
+<!-- .slide: class="master02" -->
+
+### But how?
+
+![Decentralized Netowrk](assets/BitcoinDecentralizedNetwork.png)  <!-- .element height="45%" width="45%" -->
+
+Let one node order the transactions.
+
+<!-- What if we let one specific node decide about the order of the transactions -->
+<!-- For example Bobs node. -->
+<!-- Well this would actually be a centralized system then -->
+
+<!-- slide -->
+<!-- .slide: class="master02" -->
+
+### Centralization?
+![Double Spending](assets/How-About-No-Bear.jpg)
+<!-- Well, that is not a solution, because with a centralized approach and we would lose all the benefits we gained from the systems decentralization. -->
+
+<!-- slide -->
+<!-- .slide: class="master02" -->
+
+### Instead
+* 10-minute-blocks
+* Each node is centralized part for one block
+
+<br />
+... but who coordinates this?
+
+<!-- Every node may be the centralized part for ten minutes -->
+<!-- First Alice, then Bob, then Charlie, then xxx, then again Alice and so on -->
+
+<!-- slide -->
+<!-- .slide: class="master02" -->
+
+### A centralized authority?
+![Double Spending](assets/How-About-No-Bear.jpg)
+
+<!-- Well, that is not a solution, because with a centralized approach and we would lose all the benefits we gained from the systems decentralization. -->
+
+<!-- slide -->
+<!-- .slide: class="master02" -->
+
+### Math and Probability!!
+* Everybody creates blocks at will
+* All nodes always verify
+* There is a block reward
+* Each block "contains" a cryptographic puzzle
+* ~ The first solution wins
+
+__= Mining__
+
+<!-- slide -->
+<!-- .slide: class="master02" -->
+
+### Proof of Work
+
+1) Create your block of choice
+
+2) Brute-force hash the block *(while changing the nonce)*
+
+3) If hash < target ==> broadcast the block
+
+<!-- the "cryptographic puzzle" is actually called proof of work -->
+<!-- So you create a block containing of whatever transactions you would like to be inside of it -->
+<!-- You also create a reward transaction from nowhere to yourself, inside of this block -->
+<!-- Then start hashing the block over and over again, while each time counting up your nonce -->
+<!-- The nonce can be as random as it gets, doesn't mean anything -->
+<!-- Remember, a hash is nothing but a number -->
+<!-- If you achieve a hash that is smaller than the difficulty, then you won. -->
+<!-- You can broadcast your block and the other miners will imediately restart mining on top of your Block -->
+
+<!-- slide -->
+<!-- .slide: class="master02" -->
+
+### That's it!
+
+The revolutionary technology inside of Bitcoin:
+__Decentralized Consensus__
+
+<br />
+... everything else existed before.
+
 
 <!-- section -->
 <!-- .slide: class="master01" -->
